@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Form Metode GET</title>
+    <style>
+        .container {
+            width: 60%;
+            margin: auto;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+        
+        label,
+        input {
+            display: block;
+            width: 70%;
+            height: 20px;
+        }
+        
+        input {
+            margin-bottom: 5px;
+        }
+        
+        button {
+            border: none;
+            outline: none;
+            background-color: green;
+            color: white;
+            padding: 5px;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Data Mahasiswa</h1>
+        <form action="detail_data_mahasiswa.html" method="GET">
+            <label> Masukkan Nama</label>
+            <input type="text" placeholder="Masukkan Nama">
+            <label> NIM-Mahasiswa</label>
+            <input type="text" placeholder="Masukkan NIM">
+            <label> Kelas-Mahasiswa</label>
+            <input type="text" placeholder="Kelas-Mahasiswa">
+            <label>Masukkan Email</label>
+            <input type="email" placeholder="Masukkan Email">
+            <label>Masukkan Kata Sandi</label>
+            <input type="Password" placeholder="Masukkan Kata Sandi">
+            <button type="submit">kirim</button>
+        </form>
+    </div>
+</body>
+
+</html>
